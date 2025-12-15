@@ -1,0 +1,7 @@
+# Python dependencies for Wavecon 5G Telecom Analysis Project
+
+# Presentation Generation
+python-pptx==0.6.21
+
+# Data Analysis
+pandas==2.0.3

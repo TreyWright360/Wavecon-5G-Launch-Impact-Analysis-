@@ -1,0 +1,149 @@
+================================================================================
+WAVECON 5G ANALYSIS - DATASET FOLDER
+================================================================================
+
+This folder contains all data files and documentation for the Wavecon 5G
+launch impact analysis project.
+
+================================================================================
+FILES IN THIS FOLDER
+================================================================================
+
+1. Wavecon_dashboard_analysis1.pbix (384 KB)
+   - Power BI dashboard file
+   - Contains all visualizations and data models
+   - Open with Power BI Desktop
+
+2. README.md (4.4 KB)
+   - Comprehensive dataset documentation
+   - Data schema and structure
+   - Usage instructions
+
+3. data_dictionary.txt (8.0 KB)
+   - Complete data dictionary
+   - KPI definitions
+   - City-level metrics
+   - Calculation formulas
+
+4. metrics_reference.md (6.3 KB)
+   - Quick reference guide
+   - Visual performance indicators
+   - Key numbers to memorize
+   - Calculation examples
+
+5. DATASET_INFO.txt (this file)
+   - Quick overview of dataset folder
+
+================================================================================
+QUICK DATA SUMMARY
+================================================================================
+
+Total Revenue: ₹31.9 Billion
+Revenue Change: -0.50% (decline)
+Active Users: 161.7 Million
+Unsubscribed: 12.6 Million
+ARPU: ₹200.7
+
+Cities Analyzed: 15
+- 8 Tier-1 (major metros)
+- 7 Tier-2 (emerging markets)
+
+Best Performer: Lucknow (+1.82%)
+Worst Performer: Chennai (-2.99%)
+
+================================================================================
+HOW TO USE THIS DATA
+================================================================================
+
+For Power BI Analysis:
+1. Open Wavecon_dashboard_analysis1.pbix in Power BI Desktop
+2. Explore interactive visualizations
+3. Filter by city, time period, or metrics
+
+For Understanding the Data:
+1. Start with README.md for overall understanding
+2. Use data_dictionary.txt for detailed definitions
+3. Reference metrics_reference.md for quick lookups
+
+For Python/Code Analysis:
+- Data is extracted in ../dashboard_analysis.py
+- Used in ../create_enhanced_presentation.py
+
+================================================================================
+DATA STRUCTURE
+================================================================================
+
+dataset/
+├── Wavecon_dashboard_analysis1.pbix    Main dashboard file
+├── README.md                            Dataset documentation
+├── data_dictionary.txt                  Complete data definitions
+├── metrics_reference.md                 Quick reference guide
+└── DATASET_INFO.txt                     This overview file
+
+================================================================================
+KEY METRICS AVAILABLE
+================================================================================
+
+Revenue Metrics:
+- Total Revenue
+- Before 5G Revenue
+- After 5G Revenue
+- Revenue Change %
+- Monthly Average
+
+Customer Metrics:
+- Total Active Users (TAU)
+- Unsubscribed Users (TUsU)
+- Average Revenue Per User (ARPU)
+
+Geographic Metrics:
+- City-wise revenue
+- Before/After comparison by city
+- Tier-1 vs Tier-2 performance
+
+================================================================================
+DATA QUALITY
+================================================================================
+
+Completeness: 100%
+Missing Values: None
+Accuracy: High (from source dashboard)
+Granularity: City-level
+Time Period: Before vs After 5G launch
+
+================================================================================
+IMPORTANT NOTES
+================================================================================
+
+- This is a fictional dataset for educational purposes
+- Created for CodeBasics Virtual Internship
+- No real customer data included
+- Use for portfolio and learning only
+
+================================================================================
+PROJECT CONTEXT
+================================================================================
+
+Project: Wavecon 5G Launch Impact Analysis
+Program: CodeBasics Virtual Internship
+Analyst: Theada Wright
+Date: December 2025
+
+For complete analysis, see INSIGHTS_SUMMARY.md in parent directory
+
+================================================================================
+GETTING STARTED
+================================================================================
+
+New to this data?
+1. Read README.md first
+2. Open the Power BI dashboard to visualize
+3. Refer to data_dictionary.txt for definitions
+4. Use metrics_reference.md while analyzing
+
+Questions?
+- Check parent directory documentation
+- Review INSIGHTS_SUMMARY.md for context
+- See presentation files for visual insights
+
+================================================================================
